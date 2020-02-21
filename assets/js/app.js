@@ -50,7 +50,7 @@ electron.ipcRenderer.on('saveDownloads',function(){
   saveDownloads(true);
 });
 
-var subDomain = settings.get('subdomain') || 'www';
+var subDomain = settings.get('subdomain') || 'tcsglobal';
 
 var $subDomain = $('.ui.login #subdomain');
 
